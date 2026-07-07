@@ -1,0 +1,126 @@
+/********************************************************** 
+Samantha Toye 
+ID:0890022 
+WEB110  
+Project #1 My Biography 
+DATE MODIFIED: 02/28/2026 
+TABLE OF CONTENTS 
+1. CSS FULL RESET 
+2. BODY, NAV, AND GRID 
+3. IMAGES AND FLOATS 
+4. HEADINGS AND FOOTER 
+5. TEXT, SECTION, AND LINKED FONT
+
+COLOR GUIDE:: 
+Sky Blue(100, 200, 234); 
+Royal Purple(127, 17, 186); 
+Dusty Rose(212, 150, 194); 
+Hot Pink(244, 103, 178); 
+Plum Eggplant(67, 5, 79); 
+Emerald Green(24, 164, 101); 
+Goldenrod(209, 128, 6);
+Ocean Blue(20, 105, 209); 
+Navy Blue(3, 3, 70);
+*********************************************************/ 
+/* 1. CSS FULL RESET */ 
+*{ 
+ margin:0px; 
+ padding:0px; 
+ font-family: sans-serif; 
+ box-sizing: border-box; 
+} 
+/* 2. BODY, NAV, AND GRID */ 
+header, main, footer{ 
+ max-width: 960px; 
+ min-width: 600px; 
+ margin: 0 auto; 
+} 
+body { 
+  background-color: rgb(100, 200, 234); 
+  border-color: rgb(127, 17, 186); 
+  border-style: double; 
+  border-width: 10px; 
+} 
+nav { 
+ background-color: rgb(212, 150, 194); 
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ overflow: auto;
+} 
+nav li{ 
+ list-style-type: none; 
+ float: left;
+ margin-left: 40px;
+ margin-bottom: 5px;
+ padding: 15px; 
+} 
+/*3.IMAGES AND FLOATS*/ 
+img{ 
+    float:left;
+    clear: left; 
+     width: 300px; height: auto; 
+     margin-right: 20px; 
+     margin-bottom: 10px; 
+    border-style: solid; 
+    border-color: rgb(244, 103, 178); 
+    border-width: 5px; 
+} 
+.Sam {
+    float:left;
+    clear: left;
+    width: 500px; height: 400px;
+
+}
+.Pic{
+    float:left;
+    clear: left;
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    border: 5px solid;
+}
+
+/*4.HEADINGS AND FOOTER*/ 
+h1 { 
+    clear: both;
+  border-style: solid; 
+  border-color: rgb(67, 5, 79); 
+  border-width: 5px; 
+  color: rgb(24, 164, 101); 
+  text-align: left; 
+  font-size: 30px; 
+  font-family: "Betania Patmos";
+} 
+h2{
+    color: rgb(209, 128, 6); 
+    font-size: 30px; 
+    text-align: left; 
+    margin-left: 20px; 
+    font-family: "Betania Patmos";
+} 
+footer{ 
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    color: rgb(20, 105, 209); 
+    text-align: center; 
+    padding: 50px; 
+} 
+/*5.TEXT, SECTION, AND LINKED FONT*/ 
+p{ 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 16px; 
+  text-align: left; 
+  margin-left: 10px; 
+  color: rgb(3, 3, 70);
+} 
+section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.betania-patmos-regular {
+  font-family: "Betania Patmos", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
